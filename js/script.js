@@ -28,7 +28,7 @@ $.getElementById('change').addEventListener('click', function(){
         $.querySelector('.input').placeholder = 'Celsius'
         placeHolderFlag = false
     }else{
-        $.querySelector('.input').placeholder = 'Farenheit'
+        $.querySelector('.input').placeholder = 'Fahrenheit'
         placeHolderFlag = true
     }
     
